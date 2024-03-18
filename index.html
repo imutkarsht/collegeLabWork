@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="3">
+        <tr>
+          <th colspan="2">Student Form</th>
+        </tr>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td><input type="text" placeholder="enter your name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="rollno">Roll No</label></td>
+            <td><input type="text" placeholder="enter your rollno" id="rollno"></td>
+        </tr>
+        <tr>
+            <td>gender</td>
+            <td>
+                <form action="">
+                    <input type="radio" id="option1" name="option" value="option1">
+                    <label for="option1">Male</label>
+                    <input type="radio" id="option2" name="option" value="option2">
+                    <label for="option2">Female</label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Subjects</td>
+            <td>
+                <input type="checkbox" name="java" id="java">
+                <label for="java">Java</label>
+                <input type="checkbox" name="DSA" id="DSA">
+                <label for="DSA">DSA</label>
+                <input type="checkbox" name="Operating System" id="Operating System">
+                <label for="Operating System">Operating System</label>
+                <input type="checkbox" name="Web Tech" id="Web Tech">
+                <label for="Web Tech">Web Tech</label>
+                <input type="checkbox" name="DBMS" id="DBMS">
+                <label for="DBMS">DBMS</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="options">City</label></td>
+            <td>
+                <select id="options" name="options">
+                    <option value="option1">Gorakhpur</option>
+                    <option value="option2">MaharajGanj</option>
+                    <option value="option3">deoria</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="password">password</label></td>
+            <td><input type="password" placeholder="enter your password" id="password"></td>
+        </tr>
+        <tr>
+            <td>Upload Image</td>
+            <td>
+                <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+                <input type="submit" value="Upload">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button>Submit</button></td>
+          </tr>
+      </table>
+    <form action=""></form>
+</body>
+</html>
